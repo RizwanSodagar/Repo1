@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-16T16:59:23 EDT" name="AmazonWebsite Automation Test Suite" finished-at="2023-06-16T17:03:53 EDT" duration-ms="270692">
+    <groups>
+      <group name="smoke">
+        <method signature="PasswordPageTest.enterPasswordTest()[pri:1, instance:com.amazon.qa.testcases.PasswordPageTest@7a6d7e92]" name="enterPasswordTest" class="com.amazon.qa.testcases.PasswordPageTest"/>
+        <method signature="EmailPageTest.clickContinueTest()[pri:2, instance:com.amazon.qa.testcases.EmailPageTest@1a4927d6]" name="clickContinueTest" class="com.amazon.qa.testcases.EmailPageTest"/>
+        <method signature="HomePageTest.signInButtonTest()[pri:4, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" name="signInButtonTest" class="com.amazon.qa.testcases.HomePageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-06-16T16:59:23 EDT" name="AmazonWebsite Test Cases" finished-at="2023-06-16T17:03:53 EDT" duration-ms="270692">
+      <class name="com.amazon.qa.testcases.PasswordPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.PasswordPageTest@7a6d7e92]" started-at="2023-06-16T17:00:50 EDT" name="setup" finished-at="2023-06-16T17:01:03 EDT" duration-ms="13128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enterPasswordTest()[pri:1, instance:com.amazon.qa.testcases.PasswordPageTest@7a6d7e92]" started-at="2023-06-16T17:01:03 EDT" name="enterPasswordTest" finished-at="2023-06-16T17:01:09 EDT" duration-ms="5759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.PasswordPageTest@7a6d7e92]" started-at="2023-06-16T17:01:09 EDT" name="tearDown" finished-at="2023-06-16T17:01:12 EDT" duration-ms="2902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.qa.testcases.PasswordPageTest -->
+      <class name="com.amazon.qa.testcases.EmailPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.EmailPageTest@1a4927d6]" started-at="2023-06-16T17:00:23 EDT" name="setup" finished-at="2023-06-16T17:00:32 EDT" duration-ms="8723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmailTitleTest()[pri:1, instance:com.amazon.qa.testcases.EmailPageTest@1a4927d6]" started-at="2023-06-16T17:00:32 EDT" name="verifyEmailTitleTest" finished-at="2023-06-16T17:00:32 EDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.EmailPageTest@1a4927d6]" started-at="2023-06-16T17:00:32 EDT" name="tearDown" finished-at="2023-06-16T17:00:34 EDT" duration-ms="2601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.EmailPageTest@1a4927d6]" started-at="2023-06-16T17:00:34 EDT" name="setup" finished-at="2023-06-16T17:00:44 EDT" duration-ms="9590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickContinueTest()[pri:2, instance:com.amazon.qa.testcases.EmailPageTest@1a4927d6]" started-at="2023-06-16T17:00:44 EDT" name="clickContinueTest" finished-at="2023-06-16T17:00:48 EDT" depends-on-methods="com.amazon.qa.testcases.EmailPageTest.verifyEmailTitleTest" duration-ms="3976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickContinueTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.EmailPageTest@1a4927d6]" started-at="2023-06-16T17:00:48 EDT" name="tearDown" finished-at="2023-06-16T17:00:50 EDT" duration-ms="2359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.qa.testcases.EmailPageTest -->
+      <class name="com.amazon.qa.testcases.MainUserPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:01:12 EDT" name="setup" finished-at="2023-06-16T17:01:30 EDT" duration-ms="17955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchIteamTest()[pri:1, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:01:30 EDT" name="searchIteamTest" finished-at="2023-06-16T17:01:35 EDT" duration-ms="4916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchIteamTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:01:35 EDT" name="tearDown" finished-at="2023-06-16T17:01:37 EDT" duration-ms="2490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:01:37 EDT" name="setup" finished-at="2023-06-16T17:01:56 EDT" duration-ms="19005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="scrollUpDownTest()[pri:2, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:01:56 EDT" name="scrollUpDownTest" finished-at="2023-06-16T17:02:11 EDT" duration-ms="14926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollUpDownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:02:11 EDT" name="tearDown" finished-at="2023-06-16T17:02:15 EDT" duration-ms="3647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:02:16 EDT" name="setup" finished-at="2023-06-16T17:02:36 EDT" duration-ms="19349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addingPostalCode(java.lang.String,java.lang.String)[pri:3, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:02:36 EDT" name="addingPostalCode" data-provider="getPostalData" finished-at="2023-06-16T17:02:47 EDT" duration-ms="11608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[K2T]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0R3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingPostalCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:02:47 EDT" name="tearDown" finished-at="2023-06-16T17:02:51 EDT" duration-ms="3180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:02:51 EDT" name="setup" finished-at="2023-06-16T17:03:10 EDT" duration-ms="19302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addingPostalCode(java.lang.String,java.lang.String)[pri:3, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:03:10 EDT" name="addingPostalCode" data-provider="getPostalData" finished-at="2023-06-16T17:03:21 EDT" duration-ms="11309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[M1B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3A3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingPostalCode -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:03:21 EDT" name="tearDown" finished-at="2023-06-16T17:03:25 EDT" duration-ms="3706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:03:25 EDT" name="setup" finished-at="2023-06-16T17:03:46 EDT" duration-ms="20889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signOutTest()[pri:4, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:03:46 EDT" name="signOutTest" finished-at="2023-06-16T17:03:50 EDT" duration-ms="4585" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[SignOut button is not displyed. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: SignOut button is not displyed. expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at com.amazon.qa.testcases.MainUserPageTest.signOutTest(MainUserPageTest.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.MainUserPageTest@aba625]" started-at="2023-06-16T17:03:50 EDT" name="tearDown" finished-at="2023-06-16T17:03:53 EDT" duration-ms="2822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.qa.testcases.MainUserPageTest -->
+      <class name="com.amazon.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" started-at="2023-06-16T16:59:23 EDT" name="setup" finished-at="2023-06-16T16:59:33 EDT" duration-ms="10480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logoTest()[pri:1, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" started-at="2023-06-16T16:59:33 EDT" name="logoTest" finished-at="2023-06-16T16:59:36 EDT" duration-ms="3369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" started-at="2023-06-16T16:59:36 EDT" name="tearDown" finished-at="2023-06-16T16:59:39 EDT" duration-ms="2493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" started-at="2023-06-16T16:59:39 EDT" name="setup" finished-at="2023-06-16T16:59:48 EDT" duration-ms="8596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verfiyTitleTest()[pri:2, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" started-at="2023-06-16T16:59:48 EDT" name="verfiyTitleTest" finished-at="2023-06-16T16:59:48 EDT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" started-at="2023-06-16T16:59:48 EDT" name="tearDown" finished-at="2023-06-16T16:59:50 EDT" duration-ms="2583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" started-at="2023-06-16T16:59:50 EDT" name="setup" finished-at="2023-06-16T16:59:59 EDT" duration-ms="8874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="allDepartmentTest()[pri:3, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" started-at="2023-06-16T16:59:59 EDT" name="allDepartmentTest" finished-at="2023-06-16T17:00:06 EDT" duration-ms="6518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allDepartmentTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" started-at="2023-06-16T17:00:06 EDT" name="tearDown" finished-at="2023-06-16T17:00:08 EDT" duration-ms="2069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" started-at="2023-06-16T17:00:08 EDT" name="setup" finished-at="2023-06-16T17:00:17 EDT" duration-ms="8948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signInButtonTest()[pri:4, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" started-at="2023-06-16T17:00:17 EDT" name="signInButtonTest" finished-at="2023-06-16T17:00:21 EDT" duration-ms="4011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signInButtonTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.qa.testcases.HomePageTest@4201c465]" started-at="2023-06-16T17:00:21 EDT" name="tearDown" finished-at="2023-06-16T17:00:23 EDT" duration-ms="2412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.qa.testcases.HomePageTest -->
+    </test> <!-- AmazonWebsite Test Cases -->
+  </suite> <!-- AmazonWebsite Automation Test Suite -->
+</testng-results>
